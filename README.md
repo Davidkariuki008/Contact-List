@@ -1,22 +1,17 @@
-# Project Title
+# Contact Book
 
-Contact Book
+This is a simple form where a user can search for a contact
 
 ## Getting Started
 
-Clone this repository
+Clone this repository,
 Open containing Folder
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Good internet Connectivity
+Good Internet Connectivity
 ```
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
