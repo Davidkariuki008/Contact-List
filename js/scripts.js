@@ -1,15 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var userInput = document.getElementById('search');
-
-    userInput.addEventListener('keyup', findNames);
+    var searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('keyup', findNames);
 
 });
 
 function findNames() {
-
-
-    var searchInputValue = document.getElementById('search').value;
-
+    var searchInputValue = document.getElementById('search-input').value;
     var contacts = document.getElementById('contacts')
     var names = contacts.querySelectorAll('li.collection-item')
 
@@ -24,7 +20,11 @@ function findNames() {
 
 };
 
-function appendNewContact() {
-    var inputValue = document.getElementById('addContacts').value;
+function appendNewContact(event) {
+    var inputValue = document.getElementById('add-contacts').value;
+    var form = document.getElementById("my-form");
     alert(inputValue)
-}
+
+    event.preventDefault();
+    form.reset();
+};
