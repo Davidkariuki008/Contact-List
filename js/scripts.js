@@ -17,13 +17,13 @@ function findNames() {
             names[i].style.display = 'none';
         };
     };
-
 };
 
 function appendNewContact(event) {
     var inputValue = document.getElementById('add-contacts').value;
-    var form = document.getElementById("my-form");
     alert(inputValue)
+    var form = document.getElementById("my-form");
+
 
     event.preventDefault();
     form.reset();
